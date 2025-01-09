@@ -39,7 +39,7 @@ export default function Hero() {
               <div className="absolute inset-0 flex justify-center items-center bg-black bg-opacity-50 group-hover:block opacity-0 group-hover:opacity-100 transition-opacity">
               </div>
               <video
-                src="/assets/herosecvideo.mp4"
+                src="/assets/sample1.mp4"
                 className="w-full h-full object-cover"
                 controls
                 autoPlay
