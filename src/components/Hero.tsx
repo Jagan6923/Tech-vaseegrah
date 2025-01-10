@@ -33,7 +33,6 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Video Placeholder */}
           <div className="relative group">
             <div className="bg-gray-800 rounded-lg shadow-2xl overflow-hidden relative">
               <div className="absolute inset-0 flex justify-center items-center bg-black bg-opacity-50 group-hover:block opacity-0 group-hover:opacity-100 transition-opacity">

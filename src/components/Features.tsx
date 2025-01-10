@@ -6,7 +6,7 @@ import {
   Package,
   Smartphone,
 } from "lucide-react";
-import { motion } from "framer-motion"; // Import Framer Motion
+import { motion } from "framer-motion"; 
 
 const features = [
   {
@@ -66,13 +66,13 @@ export default function Features() {
               <motion.div
                 key={index}
                 className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow"
-                initial={{ opacity: 0, y: 20 }} // Initial state: invisible and slightly below
-                animate={{ opacity: 1, y: 0 }} // Animate to visible and aligned position
-                transition={{ duration: 0.5, delay: index * 0.1 }} // Add slight delay for staggered effect
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }} 
+                transition={{ duration: 0.5, delay: index * 0.1 }} 
                 whileHover={{
-                  scale: 1.05, // Scale up by 5% on hover
-                  boxShadow: "0 4px 15px rgba(0, 0, 0, 0.1)", // Add subtle shadow on hover
-                }} // Hover effect
+                  scale: 1.05, 
+                  boxShadow: "0 4px 15px rgba(0, 0, 0, 0.1)", 
+                }} 
               >
                 <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
                   <Icon className="w-6 h-6 text-blue-600" />

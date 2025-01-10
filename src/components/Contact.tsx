@@ -1,8 +1,8 @@
 import React, { useState, useRef } from "react";
 import { Mail, Phone, MapPin } from "lucide-react";
 import emailjs from "@emailjs/browser";
-import { ToastContainer, toast } from "react-toastify"; // Import toast and ToastContainer
-import "react-toastify/dist/ReactToastify.css"; // Import CSS for react-toastify
+import { ToastContainer, toast } from "react-toastify"; 
+import "react-toastify/dist/ReactToastify.css"; 
 
 export default function Contact() {
   const form = useRef<HTMLFormElement>(null);

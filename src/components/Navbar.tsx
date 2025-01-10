@@ -6,7 +6,6 @@ export default function Navbar() {
   const [showLogin, setShowLogin] = useState(false);
   const [showRegister, setShowRegister] = useState(false);
 
-  // Scroll to top function
   const handleScrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
@@ -59,14 +58,12 @@ export default function Navbar() {
         </div>
       </nav>
 
-      {/* Login Modal */}
       <LoginModal
         isOpen={showLogin}
         onClose={() => setShowLogin(false)}
         onSwitchToRegister={handleSwitchToRegister}
       />
 
-      {/* Register Modal */}
       <RegisterModal
         isOpen={showRegister}
         onClose={() => setShowRegister(false)}
