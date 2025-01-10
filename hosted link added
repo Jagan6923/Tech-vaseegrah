@@ -1,5 +1,5 @@
 # Billzzy Landing Page
-
+Hosted link : https://tech-vaseegrah.vercel.app/
 ## Overview
 The **Billzzy Landing Page** is a modern and responsive landing page designed to attract business owners who do not have a website or those receiving orders via mobile calls. The goal is to showcase how Billzzy automates manual tasks for businesses and provides a seamless order management system.
 
