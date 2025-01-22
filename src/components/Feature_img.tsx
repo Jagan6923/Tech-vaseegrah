@@ -28,7 +28,7 @@ const OurFeature = [
   },
 ];
 
-export default function Testimonials() {
+export default function FeatureImage() {
   const [current, setCurrent] = useState(0);
 
   useEffect(() => {
