@@ -3,7 +3,7 @@ import React, { Suspense } from "react";
 const Navbar = React.lazy(() => import("./components/Navbar"));
 const Hero = React.lazy(() => import("./components/Hero"));
 const Features = React.lazy(() => import("./components/Features"));
-const Testimonials = React.lazy(() => import("./components/Testimonials"));
+const OurFeature = React.lazy(() => import("./components/Feature_img"));
 const Brands = React.lazy(() => import("./components/Brands"));
 const About = React.lazy(() => import("./components/About"));
 const Contact = React.lazy(() => import("./components/Contact"));
@@ -24,7 +24,7 @@ function App() {
         <Navbar />
         <Hero />
         <Features />
-        <Testimonials />
+        <OurFeature />
         <Brands />
         <UseCases />
         <About />
