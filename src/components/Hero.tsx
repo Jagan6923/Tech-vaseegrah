@@ -46,7 +46,7 @@ export default function Hero() {
                 loop
               />
             </div>
-            <div className="absolute -bottom-12 -right-6 bg-white p-4 rounded-lg shadow-xl">
+            <div className="absolute -bottom-12 -right-2 bg-white p-4 rounded-lg shadow-xl">
               <p className="text-blue-600 font-semibold">
                 Trusted by 10,000+ businesses
               </p>
