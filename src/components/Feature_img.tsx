@@ -49,9 +49,9 @@ export default function FeatureImage() {
   return (
     <div id="blog" className="bg-white py-12 sm:py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-8 sm:mb-16">
+        <div className="text-center mb-8 ">
           <motion.h2
-            className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2 sm:mb-4"
+            className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
@@ -99,14 +99,14 @@ export default function FeatureImage() {
                       {feature.feature}
                     </motion.h3>
                     <motion.div
-                      className="flex justify-center items-center mb-4 sm:mb-6"
+                      className="flex justify-center items-center sm:mt-12 mb-5 sm:mx-8"
                       whileHover={{ scale: 1.05 }}
                       transition={{ type: "tween", duration: 0.2 }}
                     >
                       <img
                         src={feature.image}
                         alt={feature.feature}
-                        className="w-full h-[400px] sm:h-[560px] object-contain"
+                        className="w-full h-[400px] sm:h-[560px] object-contain "
                       />
                     </motion.div>
                     <motion.p
