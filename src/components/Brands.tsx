@@ -1,72 +1,72 @@
-const brandsRow1 = [
-  {
-    name: "Asot",
-    logo: "/icons/ascot-hotel.svg",
-  },
-  {
-    name: "Google",
-    logo: "/icons/dario.svg",
-  },
-  {
-    name: "Apple",
-    logo: "/icons/olympia-hotel.svg",
-  },
-  {
-    name: "Amazon",
-    logo: "/icons/slieve-donard-hotel.svg",
-  },
-  {
-    name: "Facebook",
-    logo: "/icons/volga-hotel.svg",
-  },
-  {
-    name: "Netflix",
-    logo: "/icons/volga-tv-2.svg",
-  },
-  {
-    name: "Twitter",
-    logo: "/icons/aspect-development.svg",
-  },
-];
+// const brandsRow1 = [
+//   {
+//     name: "Asot",
+//     logo: "/icons/ascot-hotel.svg",
+//   },
+//   {
+//     name: "Google",
+//     logo: "/icons/dario.svg",
+//   },
+//   {
+//     name: "Apple",
+//     logo: "/icons/olympia-hotel.svg",
+//   },
+//   {
+//     name: "Amazon",
+//     logo: "/icons/slieve-donard-hotel.svg",
+//   },
+//   {
+//     name: "Facebook",
+//     logo: "/icons/volga-hotel.svg",
+//   },
+//   {
+//     name: "Netflix",
+//     logo: "/icons/volga-tv-2.svg",
+//   },
+//   {
+//     name: "Twitter",
+//     logo: "/icons/aspect-development.svg",
+//   },
+// ];
 
-const brandsRow2 = [
-  {
-    name: "Microsoft",
-    logo: "/icons/cyoptics.svg",
-  },
-  {
-    name: "Google",
-    logo: "/icons/olympia-hotel.svg",
-  },
-  {
-    name: "Apple",
-    logo: "/icons/mobil-logo-1.svg",
-  },
-  {
-    name: "Amazon",
-    logo: "/icons/soma-development.svg",
-  },
-  {
-    name: "Facebook",
-    logo: "/icons/technicolor-sound.svg",
-  },
-  {
-    name: "Netflix",
-    logo: "/icons/technicolor-logo.svg",
-  },
-  {
-    name: "Twitter",
-    logo: "/icons/mk-sound.svg",
-  },
-  {
-    name: "Microsoft",
-    logo: "/icons/olympia-hotel.svg",
-  },
-  {
-    name: "Google",
-    logo: "/icons/slieve-donard-hotel.svg",
-  },
-];
+// const brandsRow2 = [
+//   {
+//     name: "Microsoft",
+//     logo: "/icons/cyoptics.svg",
+//   },
+//   {
+//     name: "Google",
+//     logo: "/icons/olympia-hotel.svg",
+//   },
+//   {
+//     name: "Apple",
+//     logo: "/icons/mobil-logo-1.svg",
+//   },
+//   {
+//     name: "Amazon",
+//     logo: "/icons/soma-development.svg",
+//   },
+//   {
+//     name: "Facebook",
+//     logo: "/icons/technicolor-sound.svg",
+//   },
+//   {
+//     name: "Netflix",
+//     logo: "/icons/technicolor-logo.svg",
+//   },
+//   {
+//     name: "Twitter",
+//     logo: "/icons/mk-sound.svg",
+//   },
+//   {
+//     name: "Microsoft",
+//     logo: "/icons/olympia-hotel.svg",
+//   },
+//   {
+//     name: "Google",
+//     logo: "/icons/slieve-donard-hotel.svg",
+//   },
+// ];
 
 export default function Brands() {
   return (
