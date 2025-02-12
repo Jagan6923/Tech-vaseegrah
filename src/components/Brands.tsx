@@ -70,7 +70,7 @@
 
 export default function Brands() {
   return (
-    <div id="enterprise" className="bg-gradient-to-br from-blue-600 to-blue-800 py-16 flex justify-center">
+    <div id="enterprise" className="bg-gradient-to-br from-blue-600 to-blue-800 py-16 px-4 flex justify-center">
       <div className="relative group max-w-4xl w-full">
         <div className="bg-gray-800 rounded-lg shadow-2xl overflow-hidden relative">
           <div className="absolute inset-0 flex justify-center items-center bg-black bg-opacity-50 group-hover:block opacity-0 group-hover:opacity-100 transition-opacity"></div>
