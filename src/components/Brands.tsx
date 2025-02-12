@@ -70,8 +70,21 @@ const brandsRow2 = [
 
 export default function Brands() {
   return (
-    <div id="enterprise" className="bg-gray-50 py-16">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div id="enterprise" className="bg-gradient-to-br from-blue-600 to-blue-800 py-16 flex justify-center">
+      <div className="relative group max-w-4xl w-full">
+        <div className="bg-gray-800 rounded-lg shadow-2xl overflow-hidden relative">
+          <div className="absolute inset-0 flex justify-center items-center bg-black bg-opacity-50 group-hover:block opacity-0 group-hover:opacity-100 transition-opacity"></div>
+          <video
+            src="/assets/sample1.mp4"
+            className="w-full h-full object-cover"
+            controls
+            autoPlay
+            muted
+            loop
+          />
+        </div>
+      </div>
+      {/* <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-bold text-center mb-12">Our Customers</h2>
         <div className="relative max-w-full mx-auto overflow-hidden">
           <div className="relative overflow-hidden">
@@ -132,7 +145,7 @@ export default function Brands() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
