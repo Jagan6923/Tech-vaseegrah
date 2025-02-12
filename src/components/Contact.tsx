@@ -54,7 +54,7 @@ export default function Contact() {
 
         <div className="grid md:grid-cols-2 gap-8 md:gap-16 ">
           <div className="grid md:pl-8 mb-28 justify-center">
-            <div className="flex items-center gap-4 ">
+            <div className="flex items-center gap-4 mb-4">
               <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
                 <Mail className="w-6 h-6 text-blue-600" />
               </div>
