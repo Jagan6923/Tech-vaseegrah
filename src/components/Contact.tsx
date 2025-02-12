@@ -64,7 +64,7 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 ">
               <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
                 <Phone className="w-6 h-6 text-blue-600" />
               </div>
